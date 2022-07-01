@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\shrav\AppData\Local\Temp\testng-eclipse-1970348395\testng-customsuite.xml</span>
+                    <span>C:\Users\shrav\AppData\Local\Temp\testng-eclipse--1464857363\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.dsalgo.testgoogle" class="method navigator-link" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="scrapers.webDriverDemo" class="method navigator-link" hash-for-method="f">f</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
@@ -120,7 +120,7 @@
           <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.dsalgo.testgoogle</span>
+              <span class="class-name">scrapers.webDriverDemo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -128,14 +128,8 @@
                   <a name="f">
                   </a> <!-- f -->
                   <span class="method-name">f</span>
-                  <div class="stack-trace">java.lang.NoSuchMethodError: &apos;void com.google.common.base.Preconditions.checkState(boolean, java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)&apos;
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.dsalgo.testgoogle.beforeTest(testgoogle.java:22)
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;driver&quot; is null
+	at scrapers.webDriverDemo.beforeTest(webDriverDemo.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,7 +163,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\shrav\AppData\Local\Temp\testng-eclipse-1970348395\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\shrav\AppData\Local\Temp\testng-eclipse--1464857363\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -178,7 +172,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.dsalgo.testgoogle&quot;/&gt;
+      &lt;class name=&quot;scrapers.webDriverDemo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -221,7 +215,7 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'f')
-data.setCell(0, 2, 'com.dsalgo.testgoogle')
+data.setCell(0, 2, 'scrapers.webDriverDemo')
 data.setCell(0, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
@@ -253,7 +247,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.dsalgo.testgoogle</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">scrapers.webDriverDemo</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <img src="failed.png">
                 </img>
@@ -262,7 +256,7 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">f</span>
-                <span class="method-start">-1652734496486 ms</span>
+                <span class="method-start">-1656536535284 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

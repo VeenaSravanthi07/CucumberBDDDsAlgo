@@ -2,25 +2,19 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-16T20:54:56Z" name="Default suite" finished-at="2022-05-16T20:54:56Z" duration-ms="77">
+  <suite started-at="2022-06-29T21:02:15Z" name="Default suite" finished-at="2022-06-29T21:02:15Z" duration-ms="295">
     <groups>
     </groups>
-    <test started-at="2022-05-16T20:54:56Z" name="Default test" finished-at="2022-05-16T20:54:56Z" duration-ms="77">
-      <class name="com.dsalgo.testgoogle">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.dsalgo.testgoogle@57a3e26a]" started-at="2022-05-16T20:54:56Z" name="beforeTest" finished-at="2022-05-16T20:54:56Z" duration-ms="46" status="FAIL">
-          <exception class="java.lang.NoSuchMethodError">
+    <test started-at="2022-06-29T21:02:15Z" name="Default test" finished-at="2022-06-29T21:02:15Z" duration-ms="295">
+      <class name="scrapers.webDriverDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:scrapers.webDriverDemo@363042d7]" started-at="2022-06-29T21:02:15Z" name="beforeTest" finished-at="2022-06-29T21:02:15Z" duration-ms="188" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA['void com.google.common.base.Preconditions.checkState(boolean, java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)']]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'void com.google.common.base.Preconditions.checkState(boolean, java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)'
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.dsalgo.testgoogle.beforeTest(testgoogle.java:22)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null
+at scrapers.webDriverDemo.beforeTest(webDriverDemo.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -47,24 +41,18 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:com.dsalgo.testgoogle@57a3e26a]" started-at="2022-05-16T20:54:56Z" name="f" finished-at="2022-05-16T20:54:56Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NoSuchMethodError">
+        <test-method signature="f()[pri:0, instance:scrapers.webDriverDemo@363042d7]" started-at="2022-06-29T21:02:15Z" name="f" finished-at="2022-06-29T21:02:15Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA['void com.google.common.base.Preconditions.checkState(boolean, java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)']]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'void com.google.common.base.Preconditions.checkState(boolean, java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)'
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.dsalgo.testgoogle.beforeTest(testgoogle.java:22)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null
+at scrapers.webDriverDemo.beforeTest(webDriverDemo.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,15 +79,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.dsalgo.testgoogle@57a3e26a]" started-at="2022-05-16T20:54:56Z" name="afterTest" finished-at="2022-05-16T20:54:56Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:scrapers.webDriverDemo@363042d7]" started-at="2022-06-29T21:02:15Z" name="afterTest" finished-at="2022-06-29T21:02:15Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.dsalgo.testgoogle -->
+      </class> <!-- scrapers.webDriverDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
